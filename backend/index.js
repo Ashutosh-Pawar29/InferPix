@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(cors())
 app.get('/tkn',function(req,res){
     const ip = req.ip;
-    const tkn = jwt.sign({user:ip},jwtpass)
+    const tkn = jwt.sign({user:ip},"123456789")
     console.log(ip)
     res.json({token:tkn})
 })
