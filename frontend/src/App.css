@@ -1,0 +1,37 @@
+*{
+  background-color: rgb(64, 70, 75);
+  margin: 0px;
+  padding:0px 0px 2px;
+}
+
+#navbar{
+  background-color: rgb(0, 0, 0);
+  color: rgb(77, 176, 212) ;
+  padding: 20px;
+  justify-items: center;
+}
+
+#inp{
+  color: wheat;
+  margin: 50px;
+  display: flex;
+  justify-content:center;
+}
+#submitbtn{
+  height: 20px;
+  width: 150px;
+}
+
+#desc{
+
+  width: 300px;
+}
+
+#dispimg{
+  display: flex;
+  justify-content: center;
+  
+}
+#dispimg img{
+  width: 40vw;
+}
